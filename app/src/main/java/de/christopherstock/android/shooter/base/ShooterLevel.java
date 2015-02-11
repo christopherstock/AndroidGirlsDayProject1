@@ -64,13 +64,97 @@
             (
                 new ShooterMesh[]
                 {
-/*
+
                     //floor
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   0.0f,      -0.3f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   100.0f,    -0.3f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 0.0f,      -0.3f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 100.0f,    -0.3f  ), 0.0f ) ,
-*/
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  50.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  55.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  60.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  65.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  70.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  75.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  80.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  85.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  90.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  95.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   35.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   40.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   45.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   50.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   55.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   60.0f,      -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor5x5,     ShooterTexture.EGrass1, new LibVertex(  100.0f,   65.0f,      -0.1f  ), 0.0f ) ,
+
+
 
                     //left
                     new ShooterMesh( D3dsFile.ERoad1,   ShooterTexture.ERoad1,  new LibVertex(  50.0f,  50.0f,  0.0f   ), 0.0f  ),
@@ -98,7 +182,11 @@
                     new ShooterMesh( D3dsFile.EAmmo,            null,                   new LibVertex(  52.0f,  51.0f,  0.0f   ) ) ,
 
                     new ShooterMesh( D3dsFile.ECrackers,      new LibVertex( 0.0f, 0.0f, 1.0f )   ),
-                    new ShooterMesh( D3dsFile.ECar1,       new LibVertex( 3.0f, 0.0f, 1.0f )   ),
+
+*/
+
+/*
+                    new ShooterMesh( D3dsFile.ECrate,   ShooterTexture.ECrackers,  new LibVertex(  50.0f,  50.0f,  0.0f   ), 90.0f ),
 */
                 }
             );

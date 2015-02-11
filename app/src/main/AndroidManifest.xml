@@ -69,19 +69,19 @@
         </activity>
 
         <!-- the SHOOTER activity -->
-
-        <activity
-            android:name="de.christopherstock.android.shooter.ShooterActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:screenOrientation="landscape">
+        <activity android:name="de.christopherstock.android.shooter.ShooterActivity" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="landscape">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+
+
+
 
 
     </application>
