@@ -29,7 +29,7 @@
         android:theme="@style/AppTheme"
         >
 
-        <!-- the ViewPager activity -->
+        <!-- the VIEW-PAGER activity -->
         <activity android:name=".Amt1ViewPager" android:label="@string/appname" android:launchMode="singleTop" android:configChanges="orientation|keyboard|keyboardHidden|locale" android:screenOrientation="portrait">
 
             <!-- specify this activity as the startup activity -->
@@ -70,19 +70,23 @@
 
         <!-- the SHOOTER activity -->
         <activity android:name="de.christopherstock.android.shooter.ShooterActivity" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="landscape">
-
+<!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+-->
         </activity>
 
+        <!-- the FRESSLEMANIA activity -->
+        <activity android:name="de.christopherstock.android.fresslemania.FresslemaniaActivity" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
     </application>
 
