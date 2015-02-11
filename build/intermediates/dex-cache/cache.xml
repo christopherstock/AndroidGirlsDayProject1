@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\android-support-v4.jar"
+        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\vecmath.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
-        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-4b16febd7d750fcca84955554e076adbfd9b9bcf.jar" />
+        sha1="00a1c1749081207efe8030359240b9a7f2b243da">
+        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\vecmath-61785ba9e2b5d35178eb3248ca01a2a2f33edf13.jar" />
     </item>
     <item
         jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\android-support-v4.jar"
