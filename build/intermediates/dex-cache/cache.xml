@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-4b16febd7d750fcca84955554e076adbfd9b9bcf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-b95963bf228bda2f4aa473d961c454f9de49754c.jar" />
+    </item>
+
+</items>
