@@ -8,8 +8,8 @@ android {
     compileSdkVersion 21
     buildToolsVersion '21.1.2'
     defaultConfig {
-        applicationId 'de.christopherstock.android.martin.test1'
-        minSdkVersion 1
+        applicationId 'de.christopherstock.android.girlsday.project1'
+        minSdkVersion 3
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"

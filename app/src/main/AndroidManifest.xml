@@ -16,7 +16,7 @@
 
     <!-- this application supports all api levels -->
     <uses-sdk
-        android:minSdkVersion="1"
+        android:minSdkVersion="3"
         android:targetSdkVersion="21" />
 
     <!-- all application components - attribute android:name and the Application-context-class are history! -->

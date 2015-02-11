@@ -64,11 +64,13 @@
             (
                 new ShooterMesh[]
                 {
+/*
                     //floor
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   0.0f,      -0.1f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   100.0f,    -0.1f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 0.0f,      -0.1f  ), 0.0f ) ,
-                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 100.0f,    -0.1f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   0.0f,      -0.3f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  0.0f,   100.0f,    -0.3f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 0.0f,      -0.3f  ), 0.0f ) ,
+                    new ShooterMesh( D3dsFile.EFloor100x100, ShooterTexture.EGrass1, new LibVertex(  100.0f, 100.0f,    -0.3f  ), 0.0f ) ,
+*/
 
                     //left
                     new ShooterMesh( D3dsFile.ERoad1,   ShooterTexture.ERoad1,  new LibVertex(  50.0f,  50.0f,  0.0f   ), 0.0f  ),
