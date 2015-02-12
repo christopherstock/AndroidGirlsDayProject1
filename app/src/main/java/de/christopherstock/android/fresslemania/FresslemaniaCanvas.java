@@ -26,6 +26,9 @@
         public FresslemaniaCanvas( Context context )
         {
             super( context );
+
+            Log.i( "info", ">> CONSTRUCTING canvas class" );
+
         }
 
         @Override
@@ -38,29 +41,15 @@
         }
 
         @Override
-        public void surfaceChanged(SurfaceHolder holder, int format, int width,int height)
+        public void surfaceChanged( SurfaceHolder holder, int format, int width,int height )
         {
+Log.i( "info", ">>>>> SURFACE CHANGED being invoked!" );
         }
 
         @Override
         public void surfaceCreated( SurfaceHolder holder )
         {
-            Log.i( "info", "SURFACE CREATED !" );
-
-            DisplayMetrics metrics = new DisplayMetrics();
-            FresslemaniaActivity.singleton.getWindowManager().getDefaultDisplay().getMetrics( metrics );
-
-            CANVAS_WIDTH        = metrics.widthPixels;
-            CANVAS_HEIGHT       = metrics.heightPixels;
-            CANVAS_DPI          = metrics.densityDpi;       // (int)( metrics.density * 160 );
-
-            Log.i( "info", "CANVAS WIDTH:  [" + CANVAS_WIDTH  + "]" );
-            Log.i( "info", "CANVAS HEIGHT: [" + CANVAS_HEIGHT + "]" );
-            Log.i( "info", "CANVAS DPI:    [" + CANVAS_DPI    + "]" );
-
-            //start main thread
-            FresslemaniaActivity.mainThread = new FresslemaniaMainThread();
-            FresslemaniaActivity.mainThread.start();
+Log.i( "info", ">>>>> SURFACE CREATED being invoked!" );
         }
 
         @Override
@@ -70,16 +59,29 @@
 
         public static final void draw()
         {
+Log.i( "FresslemaniaCanvas", "draw() 1" );
+
             Canvas canvas = null;
+
+Log.i( "FresslemaniaCanvas", "draw() 2" );
 
             try
             {
+Log.i( "FresslemaniaCanvas", "draw() 3" );
+
                 canvas = FresslemaniaActivity.surfaceHolder.lockCanvas();
                 synchronized ( FresslemaniaActivity.surfaceHolder )
                 {
+Log.i( "FresslemaniaCanvas", "draw() 4" );
+
                     if ( canvas != null )
                     {
+Log.i( "FresslemaniaCanvas", "draw() 5" );
+
                         FresslemaniaActivity.canvas.onDraw( canvas );
+
+Log.i( "FresslemaniaCanvas", "draw() 6" );
+
                     }
                 }
             }
@@ -92,4 +94,24 @@
             }
         }
 
+        public final void initThatShit()
+        {
+            DisplayMetrics metrics = new DisplayMetrics();
+            FresslemaniaActivity.singleton.getWindowManager().getDefaultDisplay().getMetrics( metrics );
+
+            CANVAS_WIDTH        = metrics.widthPixels;
+            CANVAS_HEIGHT       = metrics.heightPixels;
+            CANVAS_DPI          = metrics.densityDpi;       // (int)( metrics.density * 160 );
+
+Log.i( "info", ">> CANVAS WIDTH:  [" + CANVAS_WIDTH  + "]" );
+Log.i( "info", ">> CANVAS HEIGHT: [" + CANVAS_HEIGHT + "]" );
+Log.i( "info", ">> CANVAS DPI:    [" + CANVAS_DPI    + "]" );
+
+Log.i( "info", "STARTING the main thread" );
+
+
+            //start main thread
+            FresslemaniaActivity.mainThread = new FresslemaniaMainThread();
+            FresslemaniaActivity.mainThread.start();
+        }
     }

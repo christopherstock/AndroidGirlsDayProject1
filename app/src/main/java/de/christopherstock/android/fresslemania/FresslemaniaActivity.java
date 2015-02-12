@@ -34,6 +34,8 @@
             //invoke super method
             super.onCreate( savedInstanceState );
 
+Log.i( "info", ">> FresslemaniaActivity::onCreate being invoked!" );
+
             //reference singleton instance
             singleton = this;
 
@@ -43,11 +45,16 @@
             //hide system overlay shadow
             setTheme( R.style.AppTheme );
 
+
+Log.i( "info", ">> Creating the Canvas ....." );
+
             //create and set surface view
             canvas = new FresslemaniaCanvas( this );
-            //surfaceView.setAnimation( LibUI.getAlphaAnimation() );
 
+            //surfaceView.setAnimation( LibUI.getAlphaAnimation() );
             //canvasGL.setRenderer(new FresslemaniaGLRenderer() );
+
+Log.i( "info", ">> Setting the content view ....." );
 
             setContentView( canvas );
 
@@ -80,6 +87,8 @@
 
                 surfaceHolder = canvas.getHolder();
                 surfaceHolder.addCallback( canvas );
+
+                canvas.initThatShit();
             }
 
         }

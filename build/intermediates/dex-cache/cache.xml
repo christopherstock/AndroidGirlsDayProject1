@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="E:\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\android-support-v4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
-        <dex dex="E:\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-419da7bda1789cf43831fea0dd0f0d8ea53def9f.jar" />
-    </item>
-    <item
-        jar="E:\workspaces\android\AndroidGirlsDayProject1\trunk\app\libs\vecmath.jar"
+        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\app\libs\vecmath.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="00a1c1749081207efe8030359240b9a7f2b243da">
-        <dex dex="E:\workspaces\android\AndroidGirlsDayProject1\trunk\app\build\intermediates\pre-dexed\debug\vecmath-05628c79e5a5946974b02134a41ebc850123670f.jar" />
+        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\app\build\intermediates\pre-dexed\debug\vecmath-fb537230c04e130783a32871b1bc173e1cd03e44.jar" />
+    </item>
+    <item
+        jar="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\Stock\workspaces\android\AndroidGirlsDayProject1\app\build\intermediates\pre-dexed\debug\android-support-v4-ef983fc75e92cbc75e3802224ded669a8a369c20.jar" />
     </item>
 
 </items>

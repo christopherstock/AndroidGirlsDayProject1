@@ -3,6 +3,8 @@
  */
     package de.christopherstock.android.fresslemania;
 
+    import android.util.Log;
+
     import  de.christopherstock.android.lib.*;
 
     /******************************************************************************************
@@ -16,9 +18,12 @@
         @Override
         public void run()
         {
+            Log.i( "info", "MainThread - run()" );
+
+
             while ( !FresslemaniaActivity.destroyed )
             {
-                //Log.i( "info", "run" );
+                Log.i( "info", "while run .." );
 
                 //check keys
 
